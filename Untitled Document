@@ -1,0 +1,157 @@
+
+<!doctype html>
+<html ng-app="my">
+
+<head>
+<meta charset="utf-8" />
+
+<title>Rule</title>
+
+</head>
+<body>
+
+<div class="row">
+<div class="large-12 columns">
+<h1>Rule</h1>
+
+</div>
+</div>
+
+<div class="rowone">
+<div class="large-12 columns">
+<label>Serial number</label>
+
+
+
+</div>
+</div>
+
+
+<hr align="left" width="100%">
+
+
+
+<div class="rowtwo">
+
+<label>Location:*</label>
+
+<div class=" medium-2 columns">
+<input id="checkbox1" type="checkbox"><label for="checkbox1">All</label></div>
+<div class=" medium-2 columns">
+
+<input id="checkbox2" type="checkbox"><label for="checkbox2">Cuybage Towers</label></div>
+<div class=" medium-2 columns">
+<input id="checkbox3" type="checkbox"><label for="checkbox3">Gandhinagar</label></div>
+<div class=" medium-2 columns">
+<input id="checkbox4" type="checkbox"><label for="checkbox4">Hyderabad</label></div>
+<div class=" medium-4 columns">
+<input id="checkbox5" type="checkbox"><label for="checkbox5">West Avenue</label></div>
+
+
+</div>
+
+
+<hr align="left" max-width="100%">
+
+<div class="rowthree">
+
+<label>Facilities:*</label>
+
+<div class=" medium-2 columns">
+<input id="checkbox1" type="checkbox"><label for="checkbox1">Multiple Computers</label></div>
+<div class=" medium-2 columns">
+
+<input id="checkbox2" type="checkbox"><label for="checkbox2">Network Point</label></div>
+<div class=" medium-2 columns">
+<input id="checkbox3" type="checkbox"><label for="checkbox3">Projector</label></div>
+<div class=" medium-2 columns">
+<input id="checkbox4" type="checkbox"><label for="checkbox4">Video Conferensing</label></div>
+<div class=" medium-4 columns">
+<input id="checkbox5" type="checkbox"><label for="checkbox5">White Board</label></div>
+
+<hr align="left" width="100%">
+</div>
+
+
+
+
+
+
+
+
+<div class="rowfour">
+
+
+<div class=" medium-3 columns">
+
+<label>Capacity:*</label>
+
+
+<input type="number" class="input-small" required>
+
+
+</div>
+<div class=" medium-3 columns">
+<label>Purpose:*</label>
+
+<select>
+<option value="a">Appraisal Meeting</option>
+<option value="ab">Client Call</option>
+<option value="abc">Client Visit</option>
+<option value="abcd">Interview</option>
+<option value="abcde">Team Meeting</option>
+<option value="abcdef">Training</option>
+<option value="abcdefg">Video Conference</option> 
+</select>
+
+</div>
+
+
+
+<div class=" medium-3 columns">
+<label>Priority Facilities:*</label>
+<select>
+<option value="a">White Board</option>
+<option value="ab">Projector</option>
+
+
+</select>
+</div>
+<div class=" medium-3 columns">
+
+<label>.</label>
+<select>
+<option value="am">(select facility-1)</option>
+<option value="cc">(select facility-2)</option>
+
+
+</select>
+
+</div>
+
+<hr align="left" width="100%">
+
+<div class="rowfive">
+
+
+<div class=" medium-4 columns">
+
+<label>Date:*</label>
+
+<input type="text" class="span2" value="02/16/12" data-date-format="mm/dd/yy" id="dp2">
+</div>
+
+
+<hr align="left" width="100%">
+<script src="angular.min.js"></script>
+<script src="bootstrap.js"></script>
+<script src="controllers.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
